@@ -1,0 +1,12 @@
+const appLblDashboardHeading = "ProKit";
+const appLblDashboardSubHeading = "Best Material UI Design";
+const appLblWidgets = "Widgets";
+const appLblFullApps = "Full Apps";
+const appLblDashboard = "Dashboards";
+const appLblIntegrations = "Integrations";
+const appLblThemeScreens = "Theme Screens";
+const app_error_activity_not_found = "Activity Not Found";
+const appComingSoon = "Coming Soon";
+const appLblScreenList = "Screen List";
+const appLblThemeList = "Theme List";
+const appLblWeb = "Web applications";

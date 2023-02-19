@@ -1,0 +1,22 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.com.iqonic.prokitflutter1",
+    "displayName": "Prokit",
+    "merchantCapabilities": [
+      "3DS",
+      "debit",
+      "credit"
+    ],
+    "supportedNetworks": [
+      "amex",
+      "visa",
+      "discover",
+      "masterCard"
+    ],
+    "countryCode": "FR",
+    "currencyCode": "EUR",
+    "requiredBillingContactFields": null,
+    "requiredShippingContactFields": null
+  }
+}

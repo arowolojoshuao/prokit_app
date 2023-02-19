@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ProKit Flutter
+Comment=Flutter UI Kit
+Icon=${SNAP}/meta/gui/icon.png
+Exec=prokit-flutter
+Terminal=false
+Type=Application
+Categories=Office;Utility;
+Keywords=UI;FlutterUI;UIKit;Kit;FlutterUIKit;

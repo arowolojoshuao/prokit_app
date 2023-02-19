@@ -1,0 +1,17 @@
+name: prokit-flutter
+version: '1.0'
+summary: ProKit Flutter
+description: ProKit Flutter UI Kit
+
+confinement: strict
+base: core18
+
+parts:
+  prokit-flutter:
+    plugin: flutter
+    flutter-target: lib/main.dart
+
+apps:
+  prokit-flutter:
+    command: prokit_flutter
+    extensions: [flutter-master]

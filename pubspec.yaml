@@ -1,0 +1,287 @@
+name: prokit_flutter
+description: A new Flutter application.
+version: 9.4.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Base
+  cupertino_icons: ^1.0.5
+  nb_utils: ^4.6.25
+  intl: ^0.17.0
+  flutter_vector_icons: 1.0.0
+  google_fonts: ^3.0.1
+
+  # FIREBASE PACKAGES
+  firebase_core: ^2.4.0
+  firebase_messaging: ^14.2.0
+  cloud_firestore: ^4.3.0
+
+  # Common
+  share_plus: ^4.4.0
+  url_launcher: ^6.1.6
+  http: ^0.13.5
+  html: ^0.15.0
+
+  # IMAGE
+  cached_network_image: ^3.2.2
+  image_picker: ^0.8.5+3
+  file_picker: ^5.2.0+1
+  photo_view: ^0.14.0
+  card_swiper: ^2.0.4
+
+  # AUTHENTICATION
+  google_sign_in: ^5.4.2
+  local_auth: ^1.1.6
+
+  # STATE MANAGEMENT
+  mobx: ^2.1.0
+  flutter_mobx: ^2.0.6+4
+
+  # MAP
+  google_maps_flutter: ^2.2.1
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+
+  # WEB TOOLS
+  webview_flutter: ^3.0.4
+
+  # ADS
+  google_mobile_ads: ^1.2.0
+
+  # UI
+  simple_animations: 4.0.2
+  flutter_svg: ^1.1.5
+  flutter_slidable: 0.6.0
+  flutter_staggered_grid_view: 0.4.0
+  flutter_colorpicker: ^1.0.3
+  signature: ^5.2.1
+  dots_indicator: ^2.1.0
+  percent_indicator: ^4.2.2
+  carousel_slider: ^4.1.1
+  animations: ^2.0.5
+  lottie: ^1.4.3
+  liquid_swipe: ^3.0.0
+  clippy_flutter: ^2.0.0-nullsafety.1
+  showcaseview: ^1.1.8
+  fl_chart: 0.36.1
+  syncfusion_flutter_charts: ^20.3.47
+  date_time_picker: 2.1.0
+  flutter_reaction_button: 1.0.8
+  smooth_star_rating_null_safety: ^1.0.4+2
+  country_calling_code_picker: ^2.0.1
+
+  # VIDEOS
+  video_player: ^2.4.7
+
+  # NOTIFICATION
+  flutter_local_notifications: 9.5.3+1
+  onesignal_flutter: ^3.4.1
+
+  # Dimond kit
+  sleek_circular_slider: ^2.0.1
+  sliding_up_panel: ^2.0.0+1
+
+  otp_text_field: ^1.1.3
+
+  # Cloud Storage #
+  multi_image_picker: ^4.8.1
+  collection: ^1.16.0
+
+  # PDF VIEWER #
+  syncfusion_flutter_pdfviewer: ^20.3.47
+
+  # Generate QR Code #
+  qr_flutter: ^4.0.0
+  scan: 1.6.0
+
+
+  # Payment #
+  razorpay_flutter: ^1.3.2
+  #flutter_stripe: ^1.3.0
+  #flutter_paystack: ^1.0.5+1
+  flutter_inappwebview: ^5.4.4+2
+  #pay: ^1.0.6
+  http_auth: ^1.0.1
+
+  #Temporary disabled due to lake of null safety
+  #geocoder: 0.2.1
+  #geohash: ^0.2.1
+  #snaplist: 0.1.8
+
+  # SMART HOME #
+  syncfusion_flutter_gauges: ^20.3.47
+  dotted_line: ^3.1.0
+#  country_code_picker: 2.0.2
+
+  # COINPRO
+  smooth_page_indicator: 1.0.0+2
+
+  # SOCIAL V
+  story_view: ^0.13.2
+
+  # Appetit
+  email_auth: ^1.0.0
+
+  flutter_localizations:
+    sdk: flutter
+  path_drawing: ^1.0.1
+  just_audio: ^0.9.30
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.0.7+3
+  build_runner: ^2.2.1
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+  uses-material-design: true
+  assets:
+    - fonts/
+    - assets/
+    - assets/integrations/pay/
+    - images/
+    - images/app/icons/
+    - images/app/
+    - images/app/socialIcons/
+    - images/widgets/
+    - images/widgets/materialWidgets/
+    - images/widgets/interactionModelWidgets/
+    - images/widgets/materialWidgets/mwAppStructureWidgets/
+    - images/widgets/materialWidgets/mwDialogAlertPanelWidgets/
+    - images/widgets/paintingAndEffectWidgets/
+    - images/widgets/animationAndMotionWidgets/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/MWUserAccountDrawerHeaderWidget/
+    - images/widgets/materialWidgets/mwLayoutWidgtes/MWListTile/
+    - images/widgets/materialWidgets/mwAppStructureWidgets/BottomNavigation/
+    - images/widgets/materialWidgets/mwAppStructureWidgets/TabBar/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/switch/
+    - images/widgets/materialWidgets/mwInputSelectionWidgets/Checkbox/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/cards/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/gridview/
+    - images/widgets/materialWidgets/mwInformationDisplayWidgets/listView/
+    - images/widgets/paintingAndEffectWidgets/opacity/
+    - images/integrations/img/
+    - images/integrations/icons/
+    - images/integrations/
+    - images/theme1/
+    - images/theme2/
+    - images/theme3/
+    - images/theme4/
+    - images/theme5/
+    - images/theme7/
+    - images/theme6/
+    - images/theme8/
+    - images/theme9/
+    - images/theme10/
+    - images/theme11/
+    - images/theme12/
+    - images/theme13/
+    - images/theme14/
+    - images/walletApp/
+    - images/Tinder/images/
+    - assets/defaultTheme/
+    - images/shophop/img/
+    - assets/shophop_data/
+    - assets/integrations/
+    - assets/medium/
+    - assets/integrations/lang/
+    - images/muvi/icons/
+    - images/shophop/img/products/
+    - images/muvi/images/
+    - images/shophop/img/products/shoes/
+    - images/shophop/img/products/dress/
+    - images/qibus/
+    - images/pricingPlans/
+    - images/shophop/img/products/banners/
+    - images/shophop/img/products/decor/
+    - images/newsBlog/
+    - images/medium/
+    - images/banking/
+    - images/orapay/
+    - assets/meadium_data/
+    - images/defaultTheme/
+    - images/mediLab/
+    - images/quiz/
+    - images/eventApp/
+    - images/defaultTheme/banner/
+    - images/flag/
+    - images/dating/
+    - images/dashboard/
+    - images/dashboard/smart_home/
+    - images/dashboard/split_bill/
+    - images/dashboard/health_medical/
+    - images/dashboard/utility_tracker/
+    - images/dashboard/analytics/
+    - images/dashboard/banking_dashboard/
+    - images/social/
+    - images/muvi/
+    - images/shophop/
+    - images/Reaction/images/
+    - images/defaultTheme/category/
+    - images/Reaction/
+    - images/cloudStorage/
+    - images/Tinder/
+    - images/smartDeck/
+    - images/learner/
+    - images/Reaction/images/SocialMedia/
+    - images/smartDeck/images/
+    - images/hairSalon/
+    - images/food/
+    - images/grocery/
+    - assets/pdf/
+    - images/webDashboard1/
+    - images/webDashboard2/
+    - images/webDashBoard3/
+    - images/emptyScreen1/
+    - images/errorScreens/
+    - images/shHome/
+    - images/sneakerShopping/
+    - images/coinPro/
+    - images/appetit/
+    - images/juberCarBooking/
+    - images/juberCarBooking/jcbGifs/
+    - images/juberCarBooking/jcbIcons/
+    - images/socialv/
+    - images/socialv/icons/
+    - images/beauty_master/
+    - images/mealime/
+    - images/recipe/
+    - images/recipe/walkThroughImages/
+    - images/roomFinding/
+    - images/carea/
+    - images/homeService/
+    - images/evSpot/
+    - assets/mapStyles/
+    - images/stockMarket/icons/
+    - images/stockMarket/stock/
+
+  fonts:
+    - family: Andina
+      fonts:
+        - asset: fonts/andina.ttf
+
+    - family: Regular
+      fonts:
+        - asset: fonts/googlesansregular.ttf
+
+    - family: Medium
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Semibold
+      fonts:
+        - asset: fonts/googlesansmedium.ttf
+
+    - family: Bold
+      fonts:
+        - asset: fonts/googlesansebold.ttf
+

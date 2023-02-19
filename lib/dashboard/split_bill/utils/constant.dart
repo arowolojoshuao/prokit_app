@@ -1,0 +1,1 @@
+const DEFAULT_RADIUS = 20.0;
